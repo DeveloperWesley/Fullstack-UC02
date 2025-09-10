@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sintaxe básica de input</title>
+</head>
+
+<body>
+    <form>
+        <input type="text" name="Nome da campo" id="identificador_do_campo" maxlength="30" minlength="5"
+            placeholder="Nome completo">
+        <hr>
+        <input type="radio" id="masculino" name="genero" value="masculino">
+        <label for="masculino">Masculino</label>
+        <br>
+        <input type="radio" id="feminino" name="genero" value="feminino">
+        <label for="feminino">Feminino</label>
+        <br>
+        <input type="radio" id="outro" name="genero" value="outro">
+        <label for="outro">Outro</label>
+        <hr>
+        <label for="Pais de origem">Pais de origem:</label>
+        <select name="pais" id="pais">
+            <option value="brasil">Brasil</option>
+            <option value="eua">Estados Unidos</option>
+            <option value="canada">Canadá</option>
+            <option value="japao">Japão</option>
+            <option value="alemanha">Alemanhã</option>
+        </select>
+        <hr>
+        <input type="checkbox" id="laranja" name="frutas" value="laranja">
+        <label for="laranja">Laranja</label>
+        <br>
+        <input type="checkbox" id="banana" name="banana" value="banana">
+        <label for="banana">Banana</label>
+    </form>
+
+</body>
+
+</html>
