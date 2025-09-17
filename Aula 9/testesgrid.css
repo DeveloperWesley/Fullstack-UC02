@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+.grid-container {
+    background-color: black;
+    display: grid;
+  
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(2, 100px);
+    gap: .625rem;
+    width: 37.5rem;
+    height: 25rem;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.grid-item {
+    background-color: red;
+    padding: 1.25rem;
+    text-align: center;
+    height: 6.5rem;
+}
