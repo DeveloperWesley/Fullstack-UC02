@@ -20,7 +20,9 @@ body {
 
 img{
     width: 25rem; 
-    height: 20rem;   
+    height: 20rem;
+    object-fit: 
+    cover;
 }
 header {
     grid-area: header;
@@ -42,6 +44,7 @@ footer {
     grid-area: footer;
     background-color: dimgray;
     place-items: center;
+    padding: 1.25rem;
 }
 h3{
     padding: 5px;
