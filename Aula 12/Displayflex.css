@@ -1,0 +1,20 @@
+.flex-container{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap:wrap;
+    /* flex-flow: column; */
+    align-items:center;
+    height: 20rem;
+    background-color: black;
+     
+}
+
+.flex-item{
+    background-color: lightblue;
+    padding: 20px;
+    width: 5rem;
+    text-align: center;
+
+}
