@@ -9,8 +9,8 @@
 
     --espaco-pq: 1rem;
     --espaco-md: 2rem;
-    --raio-borda: 0.3125rem
-    --borda-fina: 0.0625rem solid var(--cor-borda) 
+    --raio-borda: 0.3125rem;
+    --borda-fina: 0.0625rem solid var(--cor-borda);
     --largura-max:75rem;
     --img-quadrada: 6.25rem;
 
