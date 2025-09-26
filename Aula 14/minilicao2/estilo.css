@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: row;
+    background-color: lime;
+}
+
+div {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+@media(max-width:600px) {
+    body {
+        background-color: darkturquoise;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .caixa1 {
+        order:2;
+        background-color: turquoise;
+    }
+
+    .caixa2 {
+        order:3;
+        background-color: blue;
+    }
+
+    .caixa3 {
+        order:1;
+        background-color: orangered;
+    }
+}
